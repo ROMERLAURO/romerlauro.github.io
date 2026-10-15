@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Student portfolio showcasing skills, projects, and achievements.">
+     <title>My Student Portfolio</title>
+     <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header class="site-header">
+      <nav class="navbar">
+         <a class="logo" href="#home">MyPortfolio</a>
+        <ul class="nav-links">
+             <li><a href="#home">Home</a></li>
+             <li><a href="#about">About</a></li>
+             <li><a href="#skills">Skills</a></li>
+             <li><a href="#projects">Projects</a></li>
+             <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+ </header>
+
+ <main>
+     <section id="home" class="hero">
+         <div class="hero-content">
+             <p class="eyebrow">STUDENT PORTFOLIO</p>
+             <h1>Hello, I'm <span id="studentName">Romer N. Lauro</span></h1>
+              <h2 id="tagline">Aspiring Web Developer</h2>
+             <p id="introduction">I am an IT student passionate about creating responsive, user-friendly websites and practical digital solutions.
+.</p>
+              <div class="hero-actions">
+                 <a class="btn btn-outline" href="#projects">View My Projects</a>
+                 <a class="btn btn-outline" href="#contact">Contact Me</a>
+             </div>
+         </div>
+         <div class="profile-container">
+             <img id="profileImage" src="images/profile.jpg" alt="Student profile photo">
+         </div>
+     </section>
+
+     <section id="about" class="section">
+         <h2 class="section-title">About Me</h2>
+         <div class="about-content">
+             <p id="biography"></p>
+             <div class="information-card">
+                 <h3>Educational Background</h3>
+                 <p id="education"></p>
+                 <p id="graduation"></p>
+                 <h3>Career Goal</h3>
+                 <p id="careerGoal"></p>
+                  <h3>Interests</h3>
+                  <p id="interests"></p>
+             </div>
+         </div>
+  </section>
+
+<section id="skills" class="section alternate">
+     <h2 class="section-title">My Skills</h2>
+     <p class="section-description">Technologies and competencies I continue to develop.</p>
+     <div id="skillsContainer" class="skills-grid">Loading skills...</div>
+ </section>
+
+ <section id="projects" class="section">
+     <h2 class="section-title">My Projects</h2>
+     <p class="section-description">Academic and personal projects I have worked on.</p>
+     <div id="projectsMessage" class="status-message" aria-live="polite"></div>
+     <div id="projectsContainer" class="projects-grid"></div>
+  
+  <div id="githubRepos"></div>
+  <p id="githubMessage"></p>
+  <a id="githubProfile" href="https://github.com/micbdacanay2a" target="_blank">Visit My GitHub Profile</a>
+</section>
+
+
+    <a
+        id="github-profile"
+        href="https://github.com/micbdacanay2a"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="github-profile-link"
+    >
+
+    </a>
+</section>
+    
+ <section id="contact" class="section alternate">
+     <h2 class="section-title">Contact Me</h2>
+     <p class="section-description">Contact me about collaboration, projects, or opportunities.</p>
+     <div class="contact-details">
+         <p>Email: <a id="contactEmail" href="mailto:student@example.com">michaeldaledacanay@gmail.com</a></p>
+         <p id="contactLocation"></p>
+         <p><a id="linkedinLink" href="https://www.linkedin.com/"
+             target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p>
+ </div>
+ <form id="contactForm" class="contact-form">
+         <label for="visitorName">Your Name</label>
+         <input type="text" id="visitorName" name="visitorName" required minlength="2">
+         <label for="visitorEmail">Your Email</label>
+         <input type="email" id="visitorEmail" name="visitorEmail" required>
+         <label for="visitorMessage">Your Message</label>
+         <textarea id="visitorMessage" name="visitorMessage" rows="5" required
+minlength="10"></textarea>
+         <button type="submit" class="btn btn-outline">Submit Message</button>
+         <p id="formFeedback" role="status" aria-live="polite"></p>
+         </form>
+     </section>
+ </main>
+
+     <footer><p id="footerText">&copy; 2026 My Student Portfolio</p></footer>
+     <button id="backToTop" class="back-to-top" type="button" aria-label="Back to top">↑ Top</button>
+     <script src="js/script.js" defer></script>
+</body>
+</html>

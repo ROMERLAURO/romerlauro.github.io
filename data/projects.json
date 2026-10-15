@@ -1,0 +1,47 @@
+{
+  "name":"Romer N.Lauro",
+  "tagline": "Aspiring Software Developer",
+  "introduction": "I am an Information Technology student with a passion for modern web development, clean code, and practical innovation.",
+  "profileImage": "images/profile.jpg",
+  "about": {
+    "biography": "I design and build clean, fast, and functional websites that solve real-world problems.",
+    "school": "Nueva Vizcaya State University",
+    "program": "Bachelor of Science in Information Technology",
+    "graduation": "Expected graduation: 2029",
+    "careerGoal": "To become a professional full-stack developer working on impactful products.",
+    "interests": "Web development, databases, UI/UX design, and problem solving."
+  },
+  "skills": ["HTML", "CSS", "JavaScript", "Java", "MySQL", "Git & GitHub"],
+  "projects": [
+    {
+      "title": "Student Record System",
+      "description": "An application for organizing student records and academic information.",
+      "technologies": "Java, MySQL",
+      "role": "Designed the interface and developed record management features.",
+      "image": "images/project1.jpg",
+      "link": "https://github.com/romn.lauro/student-record-system"
+    },
+    {
+      "title": "Personal Portfolio",
+      "description": "A responsive website presenting my profile, skills, and academic work.",
+      "technologies": "HTML, CSS, JavaScript",
+      "role": "Designed and developed the website.",
+      "image": "images/project2.jpg",
+      "link": "https://github.com/romn.lauro/student-portfolio"
+    },
+    {
+      "title": "Inventory Management System",
+      "description": "A prototype for recording items and monitoring stock levels.",
+      "technologies": "Java, MySQL",
+      "role": "Developed inventory functions as part of a student team.",
+      "image": "images/project3.jpg",
+      "link": "https://github.com/romn.lauro/inventory-system"
+    }
+  ],
+  "githubUsername": "romn.lauro",
+  "contact": {
+    "email": "romerlauro06@gmail.com",
+    "location": "Nueva Vizcaya, Philippines",
+    "linkedin": "https://www.linkedin.com/"
+  }
+}
