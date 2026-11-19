@@ -14,12 +14,12 @@
   "skills": ["HTML", "CSS", "JavaScript", "Java", "MySQL", "Git & GitHub"],
   "projects": [
     {
-      "title": "Student Record System",
-      "description": "An application for organizing student records and academic information.",
+      "title": "FlashCard-quiz",
+      "description": "A simple and smart web app that helps students study faster by automatically generating flashcards and quizzes from uploaded learning materials. .",
       "technologies": "Java, MySQL",
-      "role": "Designed the interface and developed record management features.",
+      "role": "Designed the interface and developed the app.",
       "image": "images/project1.jpg",
-      "link": "https://github.com/romn.lauro/student-record-system"
+      "link": "https://github.com/ROMERLAURO/flashcard-quiz"
     },
     {
       "title": "Personal Portfolio",
