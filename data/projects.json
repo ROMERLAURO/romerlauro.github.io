@@ -28,14 +28,6 @@
       "role": "Designed and developed the website.",
       "image": "images/project2.jpg",
       "link": "https://github.com/ROMERLAURO/romerlauro.github.io"
-    },
-    {
-      "title": "Inventory Management System",
-      "description": "A prototype for recording items and monitoring stock levels.",
-      "technologies": "Java, MySQL",
-      "role": "Developed inventory functions as part of a student team.",
-      "image": "images/project3.jpg",
-      "link": "https://github.com/romn.lauro/inventory-system"
     }
   ],
   "githubUsername": "romn.lauro",
