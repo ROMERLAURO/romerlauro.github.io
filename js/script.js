@@ -94,6 +94,7 @@ function displayProjects(projects) {
       demoLink.rel = "noopener noreferrer";
       content.appendChild(demoLink);
     }
+  }
     card.append(image, content);
     container.appendChild(card);
   });
