@@ -80,11 +80,19 @@ function displayProjects(projects) {
     if (project.link) {
       const link = document.createElement("a");
       link.href = project.link;
-      link.textContent = "View Project";
+      link.textContent = "View GitHub";
       link.className = "project-link";
       link.target = "_blank";
       link.rel = "noopener noreferrer";
       content.appendChild(link);
+    if (project.demo) {
+      const demoLink = document.createElement("a");
+      demoLink.href = project.demo;
+      demoLink.textContent = "View Live Demo";
+      demoLink.className = "project-link";
+      demoLink.target = "_blank";
+      demoLink.rel = "noopener noreferrer";
+      content.appendChild(demoLink);
     }
     card.append(image, content);
     container.appendChild(card);
